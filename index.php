@@ -1,0 +1,52 @@
+<title>Aprendo+</title>
+<center>
+<H1 style="background-color: green ;"> Registro para el curso de Español y Matematicas</H1>
+</center>
+<style> 
+
+<body>
+h1{
+    color: white;
+    font-family: ARIAL;
+}
+</style>
+
+<center>
+<img src="logo.png" alt="foto" width="300" title="Aprendo+">
+</center>
+<hr>
+<center>
+<h1>Ingresa tus datos para registrarte al curso</h1>
+
+
+<form action="guardar.php" method="post">
+            <label>Nombre:</label>
+            <input type="text" name="Nombre" id="Nombre" required />
+            <br />
+            <br />
+            <label>Apellido1:</label>
+            <input type="text" name="Apellido1" id="Apellido1" required/>
+            <br />
+            <br />
+            <label>Apellido2:</label>
+            <input type="text" name="Apellido2" id="Apellido2" required/>
+            <br />
+            <br />
+            <label>Teléfono:</label>
+            <input type="text" name="Telefono" id="Telefono"/>
+            <br />
+            <br />
+            <label>Grado Escolar:</label>
+            <input type="text" name="Grado" id="Grado"/>
+            <br />
+            <br />
+
+            <h3>Materias que puedes cursar</h3>
+            <p>(<b>Español y Matematicas</b>)</p>
+            <p>Puedes cursar las dos o solamente una</p>
+            <input type="text" name="Materias" id="Materias"/ placeholder="Español y Matematicas">
+            <br><br>
+            <input type="submit" value="Guardar" name="submit"/>
+            <br />
+</form>
+</body>
